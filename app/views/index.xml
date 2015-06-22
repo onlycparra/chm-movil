@@ -1,11 +1,8 @@
 <Alloy>
 	<Window class="container">
-<<<<<<< HEAD
 		<Label id="label" onClick="doClick">Hello, World</Label>
 		<Label id="label" onClick="doClick">propio mensaje</Label>
-=======
 		<Label id="label" onClick="doClick">Yo, Lista</Label>
 		<Label id="label" onClick="doClick">Hao, Lista</Label>
->>>>>>> d367262cacd7971396d795fb3672ea8fa38c6e46
 	</Window>
 </Alloy>
