@@ -1,9 +1,8 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-		<Label id="label" onClick="doClick">ramiro, mensaje</Label>
-		<Label id="label" onClick="doClick">Yo, Lista</Label>
-		<Label id="label" onClick="doClick">Hao, Lista</Label>
-		<Label id="label" onClick="doClick">Claudio, Listo</Label>
-	</Window>
+		<View id="view_buttons">
+			<Button id="Button_HS">Habilidades Sociales</Button>
+			<Button id="Button_TF">Tolerancia a la Frustración</Button>
+		</View>
+    </Window>
 </Alloy>

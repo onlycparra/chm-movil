@@ -5,13 +5,13 @@
     <version>1.0</version>
     <publisher>onlycparra</publisher>
     <url>http://</url>
-    <description/>
+    <description>undefined</description>
     <copyright>2015 by onlycparra</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>788cb51b-d73c-4b19-9b4f-7c0289ee85ab</guid>
+    <guid>07e354f8-b511-4330-9444-7eddd73ce0ae</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>
@@ -47,16 +47,19 @@
         </splash>
         <theme>default</theme>
     </mobileweb>
-    <modules/>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
     <deployment-targets>
         <target device="iphone">false</target>
-        <target device="ipad">false</target>
+        <target device="ipad">true</target>
         <target device="android">true</target>
         <target device="blackberry">false</target>
         <target device="mobileweb">false</target>
     </deployment-targets>
-    <sdk-version>3.5.1.GA</sdk-version>
+    <sdk-version>4.0.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
+    <property name="appc-app-id" type="string">558944187ce77bae445a3551</property>
 </ti:app>
