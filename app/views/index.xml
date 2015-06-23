@@ -1,8 +1,16 @@
 <Alloy>
 	<Window class="container">
-		<View id="view_buttons">
+		<View id="view_header">
+			<ImageView id="icon_inicio"/>
+			<Label id="view_header_title">Selecciona categoría de Juego</Label>
+			<ImageView id="icon_sonido"/>
+		</View>
+		<View id="view_body">
 			<Button id="Button_HS">Habilidades Sociales</Button>
 			<Button id="Button_TF">Tolerancia a la Frustración</Button>
+		</View>
+		<View id="view_footer">
+			<ImageView id="icon_configuracion"/>
 		</View>
     </Window>
 </Alloy>
