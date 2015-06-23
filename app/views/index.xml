@@ -4,5 +4,6 @@
 		<Label id="label" onClick="doClick">ramiro, mensaje</Label>
 		<Label id="label" onClick="doClick">Yo, Lista</Label>
 		<Label id="label" onClick="doClick">Hao, Lista</Label>
+		<Label id="label" onClick="doClick">Claudio, Listo</Label>
 	</Window>
 </Alloy>
