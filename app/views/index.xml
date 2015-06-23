@@ -2,7 +2,7 @@
 	<Window class="container">
 		<View id="view_header">
 			<ImageView id="icon_inicio"/>
-			<Label id="view_header_title">Selecciona categoría de Juego</Label>
+			<Label id="Title">Selecciona categoría de Juego</Label>
 			<ImageView id="icon_sonido"/>
 		</View>
 		<View id="view_body">
