@@ -7,25 +7,21 @@
 "#view_header":{
 	top: "3%",
 	width:Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
+	height: "10%",
 	layout:"horizontal"
 }
 "#icon_inicio":{
 	image:"/images/icon/inicio",
-	width:Ti.UI.SIZE,
-	height: Ti.UI.SIZE
+	left:"10%"
 }
 "#view_header_title":{
 	font: {
 		fontSize: 18
-	},
-	width:Ti.UI.SIZE,
-	height: Ti.UI.SIZE
+	}
 }
-"icon_sonido":{
+"#icon_sonido":{
 	image:"/images/icon/sonido",
-	width:"10%",
-	height: "10%"
+	right:"10%"
 }
 
 //Vista de body
