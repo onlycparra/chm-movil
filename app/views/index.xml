@@ -1,8 +1,16 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-		<Label id="label" onClick="doClick">ramiro, mensaje</Label>
-		<Label id="label" onClick="doClick">Yo, Lista</Label>
-		<Label id="label" onClick="doClick">Hao, Lista</Label>
-	</Window>
+		<View id="view_header">
+			<ImageView id="icon_inicio"/>
+			<Label id="Title">Selecciona categoría de Juego</Label>
+			<ImageView id="icon_sonido"/>
+		</View>
+		<View id="view_body">
+			<Button id="Button_HS">Habilidades Sociales</Button>
+			<Button id="Button_TF">Tolerancia a la Frustración</Button>
+		</View>
+		<View id="view_footer">
+			<ImageView id="icon_configuracion"/>
+		</View>
+    </Window>
 </Alloy>

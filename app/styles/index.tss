@@ -1,15 +1,58 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor:"white",
+	layout: "vertical"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
+//Vista de header
+"#view_header":{
+	top: "3%",
+	width:Ti.UI.SIZE,
+	height: "10%",
+	layout:"horizontal"
 }
-
-"#label": {
+"#icon_inicio":{
+	image:"/images/icon/inicio",
+	height: "50%",
+	//width:Ti.UI.SIZE,
+	
+}
+"#Title":{
 	font: {
-		fontSize: 12
+		fontSize: 18
 	}
+}
+"#icon_sonido":{
+	image:"/images/icon/sonido",
+	height: "50%",
+	//width:Ti.UI.SIZE,
+}
+
+//Vista de body
+"#view_body":{  
+	layout:"vertical",
+	height: "50%"
+}
+"#Button_HS":{
+	top: "50%",
+}
+"#Button_TF":{
+	top: "4%",
+}
+"Button": {
+	height:"18%",
+	width: "60%",
+	color: "#555",
+	borderRadius: '50px',
+	backgroundColor: "#87CEFA"
+}
+
+//Vista de footer
+"#view_footer":{
+	width: "60%"
+}
+"#icon_configuracion":{
+	top: "60%",
+	left:"90%",
+	height:"40%",
+	image:"/images/icon/configuracion.jpg"
 }
