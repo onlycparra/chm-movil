@@ -8,9 +8,6 @@ function __processArg(obj, key) {
 }
 
 function Controller() {
-    function doClick() {
-        alert($.label.text);
-    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";
     this.args = arguments[0] || {};
@@ -27,67 +24,84 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
-    var __defers = {};
     $.__views.index = Ti.UI.createWindow({
         backgroundColor: "white",
+        layout: "vertical",
         id: "index"
     });
     $.__views.index && $.addTopLevelView($.__views.index);
-    $.__views.label = Ti.UI.createLabel({
+    $.__views.view_header = Ti.UI.createView({
+        top: "3%",
         width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "#000",
-        font: {
-            fontSize: 12
-        },
-        text: "Hello, World",
-        id: "label"
+        height: "10%",
+        layout: "horizontal",
+        id: "view_header"
     });
-    $.__views.index.add($.__views.label);
-    doClick ? $.__views.label.addEventListener("click", doClick) : __defers["$.__views.label!click!doClick"] = true;
-    $.__views.label = Ti.UI.createLabel({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "#000",
-        font: {
-            fontSize: 12
-        },
-        text: "ramiro, mensaje",
-        id: "label"
+    $.__views.index.add($.__views.view_header);
+    $.__views.icon_inicio = Ti.UI.createImageView({
+        image: "/images/icon/inicio",
+        height: "50%",
+        id: "icon_inicio"
     });
-    $.__views.index.add($.__views.label);
-    doClick ? $.__views.label.addEventListener("click", doClick) : __defers["$.__views.label!click!doClick"] = true;
-    $.__views.label = Ti.UI.createLabel({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "#000",
+    $.__views.view_header.add($.__views.icon_inicio);
+    $.__views.Title = Ti.UI.createLabel({
         font: {
-            fontSize: 12
+            fontSize: 18
         },
-        text: "Yo, Lista",
-        id: "label"
+        text: "Selecciona categoría de Juego",
+        id: "Title"
     });
-    $.__views.index.add($.__views.label);
-    doClick ? $.__views.label.addEventListener("click", doClick) : __defers["$.__views.label!click!doClick"] = true;
-    $.__views.label = Ti.UI.createLabel({
-        width: Ti.UI.SIZE,
-        height: Ti.UI.SIZE,
-        color: "#000",
-        font: {
-            fontSize: 12
-        },
-        text: "Hao, Lista",
-        id: "label"
+    $.__views.view_header.add($.__views.Title);
+    $.__views.icon_sonido = Ti.UI.createImageView({
+        image: "/images/icon/sonido",
+        height: "50%",
+        id: "icon_sonido"
     });
-    $.__views.index.add($.__views.label);
-    doClick ? $.__views.label.addEventListener("click", doClick) : __defers["$.__views.label!click!doClick"] = true;
+    $.__views.view_header.add($.__views.icon_sonido);
+    $.__views.view_body = Ti.UI.createView({
+        layout: "vertical",
+        height: "50%",
+        id: "view_body"
+    });
+    $.__views.index.add($.__views.view_body);
+    $.__views.Button_HS = Ti.UI.createButton({
+        height: "18%",
+        width: "60%",
+        color: "#555",
+        borderRadius: "50px",
+        backgroundColor: "#87CEFA",
+        top: "50%",
+        title: "Habilidades Sociales",
+        id: "Button_HS"
+    });
+    $.__views.view_body.add($.__views.Button_HS);
+    $.__views.Button_TF = Ti.UI.createButton({
+        height: "18%",
+        width: "60%",
+        color: "#555",
+        borderRadius: "50px",
+        backgroundColor: "#87CEFA",
+        top: "4%",
+        title: "Tolerancia a la Frustración",
+        id: "Button_TF"
+    });
+    $.__views.view_body.add($.__views.Button_TF);
+    $.__views.view_footer = Ti.UI.createView({
+        width: "60%",
+        id: "view_footer"
+    });
+    $.__views.index.add($.__views.view_footer);
+    $.__views.icon_configuracion = Ti.UI.createImageView({
+        top: "60%",
+        left: "90%",
+        height: "40%",
+        image: "/images/icon/configuracion.jpg",
+        id: "icon_configuracion"
+    });
+    $.__views.view_footer.add($.__views.icon_configuracion);
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.index.open();
-    __defers["$.__views.label!click!doClick"] && $.__views.label.addEventListener("click", doClick);
-    __defers["$.__views.label!click!doClick"] && $.__views.label.addEventListener("click", doClick);
-    __defers["$.__views.label!click!doClick"] && $.__views.label.addEventListener("click", doClick);
-    __defers["$.__views.label!click!doClick"] && $.__views.label.addEventListener("click", doClick);
     _.extend($, exports);
 }
 
