@@ -8,6 +8,15 @@ function __processArg(obj, key) {
 }
 
 function Controller() {
+    function menu0_0() {
+        alert("Hab. Sociales");
+    }
+    function menu0_1() {
+        alert("Frustración");
+    }
+    function menu0_setting() {
+        alert("Configuraciones");
+    }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";
     this.args = arguments[0] || {};
@@ -24,84 +33,138 @@ function Controller() {
     }
     var $ = this;
     var exports = {};
+    var __defers = {};
     $.__views.index = Ti.UI.createWindow({
+        statusBarStyle: "default",
+        navBarHidden: true,
+        tabBarHidden: true,
+        fullscreen: true,
         backgroundColor: "white",
         layout: "vertical",
         id: "index"
     });
     $.__views.index && $.addTopLevelView($.__views.index);
-    $.__views.view_header = Ti.UI.createView({
-        top: "3%",
-        width: Ti.UI.SIZE,
-        height: "10%",
+    $.__views.header_view = Ti.UI.createView({
+        width: "100%",
+        height: "15%",
         layout: "horizontal",
-        id: "view_header"
+        id: "header_view"
     });
-    $.__views.index.add($.__views.view_header);
-    $.__views.icon_inicio = Ti.UI.createImageView({
-        image: "/images/icon/inicio",
-        height: "50%",
-        id: "icon_inicio"
+    $.__views.index.add($.__views.header_view);
+    $.__views.home_view = Ti.UI.createView({
+        top: "0%",
+        left: "0%",
+        width: "20%",
+        height: "100%",
+        id: "home_view"
     });
-    $.__views.view_header.add($.__views.icon_inicio);
-    $.__views.Title = Ti.UI.createLabel({
+    $.__views.header_view.add($.__views.home_view);
+    $.__views.home_icon = Ti.UI.createImageView({
+        image: "/images/icon/home.png",
+        top: "10%",
+        left: "10%",
+        height: "90%",
+        id: "home_icon"
+    });
+    $.__views.home_view.add($.__views.home_icon);
+    $.__views.title_view = Ti.UI.createView({
+        top: "0%",
+        width: "60%",
+        id: "title_view"
+    });
+    $.__views.header_view.add($.__views.title_view);
+    $.__views.title_label = Ti.UI.createLabel({
+        top: "10%",
+        text: "Bienvenido",
         font: {
-            fontSize: 18
+            fontSize: 24,
+            color: "#000",
+            textAlign: "center"
         },
-        text: "Selecciona categoría de Juego",
-        id: "Title"
+        id: "title_label"
     });
-    $.__views.view_header.add($.__views.Title);
-    $.__views.icon_sonido = Ti.UI.createImageView({
-        image: "/images/icon/sonido",
-        height: "50%",
-        id: "icon_sonido"
+    $.__views.title_view.add($.__views.title_label);
+    $.__views.sound_view = Ti.UI.createView({
+        top: "0%",
+        right: "0%",
+        width: "20%",
+        height: "100%",
+        id: "sound_view"
     });
-    $.__views.view_header.add($.__views.icon_sonido);
+    $.__views.header_view.add($.__views.sound_view);
+    $.__views.sound_icon = Ti.UI.createImageView({
+        image: "/images/icon/sound.png",
+        top: "10%",
+        right: "10%",
+        height: "90%",
+        id: "sound_icon"
+    });
+    $.__views.sound_view.add($.__views.sound_icon);
     $.__views.view_body = Ti.UI.createView({
         layout: "vertical",
-        height: "50%",
+        height: "70%",
         id: "view_body"
     });
     $.__views.index.add($.__views.view_body);
     $.__views.Button_HS = Ti.UI.createButton({
-        height: "18%",
+        top: "6%",
+        height: "40%",
         width: "60%",
-        color: "#555",
-        borderRadius: "50px",
-        backgroundColor: "#87CEFA",
-        top: "50%",
+        font: {
+            fontSize: 24,
+            color: "#000",
+            textAlign: "center"
+        },
+        backgroundColor: "#9DF",
         title: "Habilidades Sociales",
         id: "Button_HS"
     });
     $.__views.view_body.add($.__views.Button_HS);
+    menu0_0 ? $.__views.Button_HS.addEventListener("click", menu0_0) : __defers["$.__views.Button_HS!click!menu0_0"] = true;
     $.__views.Button_TF = Ti.UI.createButton({
-        height: "18%",
+        top: "6%",
+        height: "40%",
         width: "60%",
-        color: "#555",
-        borderRadius: "50px",
-        backgroundColor: "#87CEFA",
-        top: "4%",
+        font: {
+            fontSize: 24,
+            color: "#000",
+            textAlign: "center"
+        },
+        backgroundColor: "#D9F",
         title: "Tolerancia a la Frustración",
         id: "Button_TF"
     });
     $.__views.view_body.add($.__views.Button_TF);
-    $.__views.view_footer = Ti.UI.createView({
-        width: "60%",
-        id: "view_footer"
+    menu0_1 ? $.__views.Button_TF.addEventListener("click", menu0_1) : __defers["$.__views.Button_TF!click!menu0_1"] = true;
+    $.__views.footer_view = Ti.UI.createView({
+        width: "100%",
+        height: "15%",
+        id: "footer_view"
     });
-    $.__views.index.add($.__views.view_footer);
-    $.__views.icon_configuracion = Ti.UI.createImageView({
-        top: "60%",
-        left: "90%",
-        height: "40%",
-        image: "/images/icon/configuracion.jpg",
-        id: "icon_configuracion"
+    $.__views.index.add($.__views.footer_view);
+    $.__views.setting_view = Ti.UI.createView({
+        bottom: "0%",
+        right: "0%",
+        width: "20%",
+        height: "100%",
+        id: "setting_view"
     });
-    $.__views.view_footer.add($.__views.icon_configuracion);
+    $.__views.footer_view.add($.__views.setting_view);
+    $.__views.setting_icon = Ti.UI.createImageView({
+        image: "/images/icon/gear.png",
+        bottom: "10%",
+        right: "10%",
+        height: "100%",
+        id: "setting_icon"
+    });
+    $.__views.setting_view.add($.__views.setting_icon);
+    menu0_setting ? $.__views.setting_icon.addEventListener("click", menu0_setting) : __defers["$.__views.setting_icon!click!menu0_setting"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);
     $.index.open();
+    __defers["$.__views.Button_HS!click!menu0_0"] && $.__views.Button_HS.addEventListener("click", menu0_0);
+    __defers["$.__views.Button_TF!click!menu0_1"] && $.__views.Button_TF.addEventListener("click", menu0_1);
+    __defers["$.__views.setting_icon!click!menu0_setting"] && $.__views.setting_icon.addEventListener("click", menu0_setting);
     _.extend($, exports);
 }
 
