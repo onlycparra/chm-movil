@@ -15,22 +15,10 @@ $.Picker_CG.add.addEventListener('change',function(e){
 	}
  	if(e.row.title=="Habilidades Sociales"){
  		$.Picker_JG.add(data_HS);
- 		/*
- 		data[0]=Ti.UI.createPickerRow({title:'Colorea'});
-		data[1]=Ti.UI.createPickerRow({title:'Selecciona'});
-		data[2]=Ti.UI.createPickerRow({title:'Acciones'});
-		data[3]=Ti.UI.createPickerRow({title:'Gestos'});*/
 	}
 	if(e.row.title=="Tolerancia a la Frustración"){
 		$.Picker_JG.add(data_TF);
-		/*
-		data[0]=Ti.UI.createPickerRow({title:'Siluetas'});
-		data[1]=Ti.UI.createPickerRow({title:'Encúentralos'});
-		data[2]=Ti.UI.createPickerRow({title:'Objetos'});
-		data[3]=Ti.UI.createPickerRow({title:'Diferencias'});
-		data[4]=Ti.UI.createPickerRow({title:'Memorice'});*/
 	}
-	//$.Picker_JG.selectionIndicator = true;
 });
 
 $.menu_desploquear_categoria.open();
