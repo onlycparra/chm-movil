@@ -9,5 +9,9 @@ function menu_setting(e) {;
 }
 $.dialog.addEventListener('click', function(e) {
 	Ti.API.info(e.text);
+	if(e.text=="123"){
+		var menu_desploquear_categoria=Alloy.createController('menu_desploquear_categoria').getView();
+		menu_desploquear_categoria.open();
+	}
 });
 $.index.open();

@@ -1,0 +1,128 @@
+".container": {
+	backgroundColor:"white",
+	layout: "vertical"
+}
+
+
+//---------------------------------
+//------------HEADER---------------
+//---------------------------------
+
+"#header_view":{
+	width:"100%",
+	height: "15%",
+	layout:"horizontal",
+	//backgroundColor:"green"
+}
+"#home_view":{
+	top: "0%",
+	left:"0%",
+	width: "20%",
+	height: "100%",
+	//backgroundColor:"red"
+}
+"#home_icon":{
+	image:"/images/icon/home.png",
+	top: "10%",
+	left: "10%",
+	height: "90%"
+	//width:Ti.UI.SIZE,
+}
+
+"#title_view":{
+	top: "0%",
+	//backgroundColor:"white",
+	width: "60%"
+}
+"#title_label":{
+	top: "10%",
+	text:"Bienvenido",
+	font: {
+		fontSize: 24,
+		color:"#000",
+		textAlign:"center"
+	}
+}
+
+"#sound_view":{
+	top: "0%",
+	right:"0%",
+	width: "20%",
+	height: "100%",
+	//backgroundColor:"blue"
+}
+"#sound_icon":{
+	image:"/images/icon/sound.png",
+	top: "10%",
+	right: "10%",
+	height: "90%"
+}
+
+
+//---------------------------------
+//-------------BODY----------------
+//---------------------------------
+"#view_body":{
+	layout:"vertical",
+	height: "70%",
+	backgroundColor:"blue"
+}
+"#view_label":{
+	layout:"horizontal",
+	height: "20%",
+	backgroundColor:"red"
+}
+"#Label_CG":{
+	font: {
+		fontSize: 24,
+		color:"#000",
+		textAlign:"center"
+	}
+}
+"#Label_JG":{
+	font: {
+		fontSize: 24,
+		color:"#000",
+		textAlign:"center"
+	}
+}
+"#view_picker":{
+	layout:"horizontal",
+	height: "25%",
+	backgroundColor:"green"
+}
+"#Picker_CG":{
+	font: {
+		fontSize: 24,
+		color:"#000",
+		textAlign:"center"
+	}
+}
+"#Picker_JG":{
+	font: {
+		fontSize: 24,
+		color:"#000",
+		textAlign:"center"
+	}
+}
+"#view_button":{
+	layout:"horizontal",
+	height: "25%",
+	backgroundColor:"green"
+}
+"#Button_CL":{
+	backgroundColor: "#9DF"
+}
+"#Button_SG":{
+	backgroundColor: "#D9F"
+}
+"Button": {
+	height:"40%",
+	width: "60%",
+	font: {
+		fontSize: 24,
+		color:"#000",
+		textAlign:"center"
+	}
+}
+
