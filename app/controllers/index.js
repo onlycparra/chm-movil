@@ -1,10 +1,13 @@
-function menu0_0(e) {
+function menu_HS(e) {
     alert("Hab. Sociales");
 }
-function menu0_1(e) {
+function menu_TF(e) {
     alert("Frustración");
 }
-function menu0_setting(e) {
-    alert("Configuraciones");
+function menu_setting(e) {;
+    $.dialog.show();
 }
+$.dialog.addEventListener('click', function(e) {
+	Ti.API.info(e.text);
+});
 $.index.open();
