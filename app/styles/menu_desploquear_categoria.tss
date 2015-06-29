@@ -30,12 +30,10 @@
 }
 
 "#title_view":{
-	top: "0%",
-	//backgroundColor:"white",
-	width: "60%"
+	width:"60%"
 }
 "#title_label":{
-	top: "10%",
+	top: "50%",
 	text:"Bienvenido",
 	font: {
 		fontSize: 24,
@@ -64,65 +62,65 @@
 //---------------------------------
 "#view_body":{
 	layout:"vertical",
-	height: "70%",
-	backgroundColor:"blue"
+	width:"60%",
+	hieght:"70%"
 }
 "#view_label":{
 	layout:"horizontal",
-	height: "20%",
-	backgroundColor:"red"
+	height:"10%",
+	top:"10%"
 }
 "#Label_CG":{
-	font: {
-		fontSize: 24,
-		color:"#000",
-		textAlign:"center"
-	}
+	textAlign:"center"
 }
 "#Label_JG":{
+	textAlign:"center"
+}
+"Label":{
 	font: {
 		fontSize: 24,
 		color:"#000",
 		textAlign:"center"
-	}
+	},
+	width:"50%"
 }
 "#view_picker":{
 	layout:"horizontal",
-	height: "25%",
-	backgroundColor:"green"
+	height:"35%"
 }
 "#Picker_CG":{
 	font: {
 		fontSize: 24,
 		color:"#000",
 		textAlign:"center"
-	}
+	},
+	width:"50%"
 }
 "#Picker_JG":{
 	font: {
 		fontSize: 24,
 		color:"#000",
 		textAlign:"center"
-	}
+	},
+	width:"50%"
 }
 "#view_button":{
 	layout:"horizontal",
-	height: "25%",
-	backgroundColor:"green"
+	height:"25%"
+	
 }
 "#Button_CL":{
-	backgroundColor: "#9DF"
+	backgroundColor: "#D9F",
 }
 "#Button_SG":{
-	backgroundColor: "#D9F"
+	backgroundColor: "#9DF",
 }
 "Button": {
-	height:"40%",
-	width: "60%",
 	font: {
 		fontSize: 24,
 		color:"#000",
 		textAlign:"center"
-	}
+	},
+	width:"50%"
 }
 
