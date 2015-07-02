@@ -18,6 +18,7 @@
 		<View id="view_body">
 			<Button id="Button_HS" onClick="menu0_0">Habilidades Sociales</Button>
 			<Button id="Button_TF" onClick="menu0_1">Tolerancia a la Frustración</Button>
+			<Button id="Button_CL" onClick="lanzaColorea" title="Ir a juego Colorea" />
 		</View>
 		
 		

@@ -7,4 +7,8 @@ function menu0_1(e) {
 function menu0_setting(e) {
     alert("Configuraciones");
 }
+
+function lanzaColorea(e) {
+	drag = Alloy.createController('drag');
+}
 $.index.open();
