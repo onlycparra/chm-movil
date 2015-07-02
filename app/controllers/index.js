@@ -1,14 +1,23 @@
-function menu0_0(e) {
-    alert("Hab. Sociales");
+function go_home(e) {
+    alert("Vuelta al Home");
 }
-function menu0_1(e) {
-    alert("Frustración");
+function play_sound(e) {
+    alert("Reproducir instrucciones de Home");
 }
-function menu0_setting(e) {
-    alert("Configuraciones");
+function go_settings(e) {
+    alert("Entrar a Configuraciones");
 }
 
 function lanzaColorea(e) {
 	drag = Alloy.createController('drag');
 }
+function op_0(e) {
+	var winMenu0=Alloy.createController("menu_0").getView();
+    winMenu0.open();
+}
+function op_1(e) {
+    var winMenu1=Alloy.createController("menu_1").getView();
+    winMenu1.open();
+}
+
 $.index.open();

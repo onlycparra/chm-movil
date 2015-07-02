@@ -2,20 +2,23 @@
 //------------HEADER---------------
 //---------------------------------
 //en app.tss
+"#title_label":{
+	text:"Habilidades Sociales"
+}
 
 
 //---------------------------------
 //-------------BODY----------------
 //---------------------------------
 "#view_body":{
-	layout:"vertical",
-	height: "70%"
+	layout:"vertical"
+	//height: "80%"
 }
 
 //---------ScrollView--------------
 "#scrollView":{
 	width: "100%",
-	layout: 'vertical',
+	layout: "vertical",
 	showVerticalScrollIndicator:"true"
 }
 
@@ -24,42 +27,26 @@
 	backgroundColor: "#9DF"
 }
 "#Button_1":{
-	backgroundColor: "#D9F"
+	backgroundColor: "#F9D"
+}
+"#Button_2":{
+	backgroundColor: "#DF9"
+}
+"#Button_3":{
+	backgroundColor: "#ADE"
+}
+"#Button_4":{
+	backgroundColor: "#EAD"
 }
 
-"#Button_CL":{
-	backgroundColor: "#D9F"
-}
 "Button": {
-	top:"10dip",
+	top:"5dip",
 	height:"70dip",
 	width: "60%",
+	bottom:"5dip",
 	font: {
 		fontSize: 24,
 		color:"#000",
 		textAlign:"center"
 	}
-}
-
-
-//---------------------------------
-//------------FOOTER---------------
-//---------------------------------
-"#footer_view":{
-	width: "100%",
-	height: "15%",
-	//backgroundColor:"green"
-}
-"#setting_view":{
-	bottom: "0%",
-	right:"0%",
-	width: "20%",
-	height: "100%",
-	//backgroundColor:"blue"
-}
-"#setting_icon":{
-	image:"/images/icon/gear.png",
-	bottom: "10%",
-	right: "10%",
-	height:"100%"
 }
