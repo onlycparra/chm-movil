@@ -24,3 +24,10 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+
+"Window": {
+    statusBarStyle: "default",
+    navBarHidden: true,
+    tabBarHidden: true,
+    fullscreen: true
+}
