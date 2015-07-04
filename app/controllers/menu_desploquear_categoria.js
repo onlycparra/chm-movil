@@ -3,6 +3,7 @@ var data_HS =[Ti.UI.createPickerRow({title:'Colorea'}),Ti.UI.createPickerRow({ti
 var data_TF =[Ti.UI.createPickerRow({title:'Siluetas'}),Ti.UI.createPickerRow({title:'Encúentralos'}),
 			  Ti.UI.createPickerRow({title:'Objetos'}),Ti.UI.createPickerRow({title:'Diferencias'}),
 			  Ti.UI.createPickerRow({title:'Memorice'})];
+var aux=false;
 $.Picker_CG.add.addEventListener('change',function(e){
 	$.Picker_JG.visible="true";
 	if($.Picker_JG.columns[0]) {
@@ -19,6 +20,13 @@ $.Picker_CG.add.addEventListener('change',function(e){
 	if(e.row.title=="Tolerancia a la Frustración"){
 		$.Picker_JG.add(data_TF);
 	}
+	aux=true;
 });
-
+function Button_SG(e) {
+    if(aux==true)
+    	alert($.Picker_CG.getSelectedRow(0).title+" "+$.Picker_JG.getSelectedRow(0).title);
+    else
+    	alert("Elige una categoría de juego.");
+}
 $.menu_desploquear_categoria.open();
+//Ti.App.Properties.setString($.tf1.value,$.tf2.value);

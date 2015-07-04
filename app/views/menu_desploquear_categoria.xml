@@ -31,7 +31,7 @@
 			</View>
 			<View id="view_button">
 				<Button id="Button_CL">Cancelar</Button>
-				<Button id="Button_SG">Siguiente</Button>
+				<Button id="Button_SG" onClick="Button_SG">Siguiente</Button>
 			</View>
 		</View>
 		
