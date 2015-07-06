@@ -1,0 +1,32 @@
+<Alloy>
+	<Window class="container">
+		
+		
+		<View id="header_view">
+			<View id="home_view">
+				<ImageView id="home_icon" onClick="go_home"/>
+			</View>
+			<View id="title_view">
+				<Label id="title_label">
+					Tolerancia a la frustración
+				</Label>
+			</View>
+			<View id="sound_view">
+				<ImageView id="sound_icon" onClick="play_sound"/>
+			</View>
+		</View>
+		
+		
+		<View id="view_body">
+			<ScrollView id="scrollView">
+				<Button id="Button_0" onClick="op_0">Siluetas</Button>
+				<Button id="Button_1" onClick="op_1">Encuéntralos</Button>
+				<Button id="Button_2" onClick="op_2">Objetos</Button>
+				<Button id="Button_3" onClick="op_3">Diferencias</Button>
+				<Button id="Button_4" onClick="op_4">Memorice</Button>
+			</ScrollView>
+		</View>
+		
+		
+    </Window>
+</Alloy>

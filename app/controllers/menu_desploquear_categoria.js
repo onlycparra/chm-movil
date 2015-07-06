@@ -22,11 +22,19 @@ $.Picker_CG.add.addEventListener('change',function(e){
 	}
 	aux=true;
 });
+function Button_CL(e) {
+	$.menu_desploquear_categoria.close();
+}
 function Button_SG(e) {
-    if(aux==true)
+    if(aux==true){
     	alert($.Picker_CG.getSelectedRow(0).title+" "+$.Picker_JG.getSelectedRow(0).title);
-    else
+    	Alloy.Globals.aux_categoria = $.Picker_CG.getSelectedRow(0).title;
+    	Alloy.Globals.aux_juego = $.Picker_JG.getSelectedRow(0).title;
+    	var menu_desbloquear_nivel=Alloy.createController('menu_desbloquear_nivel').getView();
+    	menu_desbloquear_nivel.open();
+    }	
+    else{
     	alert("Elige una categoría de juego.");
+    }	
 }
 $.menu_desploquear_categoria.open();
-//Ti.App.Properties.setString($.tf1.value,$.tf2.value);

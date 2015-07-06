@@ -1,6 +1,8 @@
 # Build folder and log file
 build/
 build.log
+Resources/
+
 
 #archivo del Studio
 .project

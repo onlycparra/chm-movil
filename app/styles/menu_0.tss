@@ -1,0 +1,48 @@
+//---------------------------------
+//------------HEADER---------------
+//---------------------------------
+//en app.tss
+"#title_label":{
+	text:"Habilidades Sociales"
+}
+
+
+//---------------------------------
+//-------------BODY----------------
+//---------------------------------
+"#view_body":{
+	layout:"vertical"
+	//height: "80%"
+}
+
+//---------ScrollView--------------
+"#scrollView":{
+	width: "100%",
+	layout: "vertical",
+	showVerticalScrollIndicator:"true"
+}
+
+//---------Buttons-----------------
+"#Button_0":{
+	backgroundColor: "#9DF"
+}
+"#Button_1":{
+	backgroundColor: "#F9D"
+}
+"#Button_2":{
+	backgroundColor: "#DF9"
+}
+"#Button_3":{
+	backgroundColor: "#ADE"
+}
+"Button": {
+	top:"5dip",
+	height:"70dip",
+	width: "60%",
+	bottom:"5dip",
+	font: {
+		fontSize: 24,
+		color:"#000",
+		textAlign:"center"
+	}
+}

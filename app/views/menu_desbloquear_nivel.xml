@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="win" class="container">
+		<!--
+		<View id="view_header">
+			<Label id="title"></Label>
+		</View>
+		<View id="view_body">
+			<Label>hola mundo</Label>
+		</View>
+		-->
+	</Window>
+</Alloy>
