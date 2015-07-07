@@ -1,13 +1,13 @@
-/*if is necesary to remove all property variable 
- if(Ti.App.Properties.hasProperty("HS_colorea0")){
+//if is necesary to remove all property variable 
+ /*if(Ti.App.Properties.hasProperty("HS_colorea0")){
 	var props = Ti.App.Properties.listProperties();
 	for (var i=0, ilen=props.length; i<ilen; i++){
 	    var value = Ti.App.Properties.getString(props[i]);
 	    Ti.API.info(props[i] + ' = ' + value+" removed");
 	    Ti.App.Properties.removeProperty(props[i]);
 	}
-}
-*/
+}*/
+
 if (!Ti.App.Properties.hasProperty("HS_colorea0")){
     for (var i=0; i < 4; i++){
     	Ti.App.Properties.setBool("HS_colorea"+i,false);

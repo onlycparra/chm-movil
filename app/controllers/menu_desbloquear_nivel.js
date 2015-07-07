@@ -1,5 +1,4 @@
-//$.title.text=Alloy.Globals.aux_categoria+" - "+Alloy.Globals.aux_juego;
- 
+
 var view_header = Ti.UI.createView({
     backgroundColor:'white', // Should see no blue
     height: "15%",
@@ -60,7 +59,7 @@ if(Alloy.Globals.aux_categoria=="Habilidades Sociales"){
 				   left: "6%",
 				   width: "90",
 				   backgroundColor: "#A4A4A4"
-				});	
+				});
 			}
 			else{
 				button[i] = Titanium.UI.createButton({
@@ -74,6 +73,38 @@ if(Alloy.Globals.aux_categoria=="Habilidades Sociales"){
 			}
 			view_body_left.add(button[i]);
     	}
+        button[0].addEventListener('click',function(e){
+            if(button[0].backgroundColor=="#A4A4A4"){
+                button[0].backgroundColor="#81F79F";
+            }
+            else{
+             button[0].backgroundColor="#A4A4A4";
+            }
+        });
+        button[1].addEventListener('click',function(e){
+            if(button[1].backgroundColor=="#A4A4A4"){
+                button[1].backgroundColor="#81F79F";
+            }
+            else{
+             button[1].backgroundColor="#A4A4A4";
+            }
+        });
+        button[2].addEventListener('click',function(e){
+            if(button[2].backgroundColor=="#A4A4A4"){
+                button[2].backgroundColor="#81F79F";
+            }
+            else{
+             button[2].backgroundColor="#A4A4A4";
+            }
+        });
+        button[3].addEventListener('click',function(e){
+            if(button[3].backgroundColor=="#A4A4A4"){
+                button[3].backgroundColor="#81F79F";
+            }
+            else{
+             button[3].backgroundColor="#A4A4A4";
+            }
+        });
 	}
 	//
 	if(Alloy.Globals.aux_juego=="Selecciona"){
@@ -100,6 +131,134 @@ if(Alloy.Globals.aux_categoria=="Habilidades Sociales"){
 			}
 			view_body_left.add(button[i]);
     	}
+        button[0].addEventListener('click',function(e){
+            if(button[0].backgroundColor=="#A4A4A4"){
+                button[0].backgroundColor="#81F79F";
+            }
+            else{
+             button[0].backgroundColor="#A4A4A4";
+            }
+        });
+        button[1].addEventListener('click',function(e){
+            if(button[1].backgroundColor=="#A4A4A4"){
+                button[1].backgroundColor="#81F79F";
+            }
+            else{
+             button[1].backgroundColor="#A4A4A4";
+            }
+        });
+        button[2].addEventListener('click',function(e){
+            if(button[2].backgroundColor=="#A4A4A4"){
+                button[2].backgroundColor="#81F79F";
+            }
+            else{
+             button[2].backgroundColor="#A4A4A4";
+            }
+        });
+        button[3].addEventListener('click',function(e){
+            if(button[3].backgroundColor=="#A4A4A4"){
+                button[3].backgroundColor="#81F79F";
+            }
+            else{
+             button[3].backgroundColor="#A4A4A4";
+            }
+        });
+        button[4].addEventListener('click',function(e){
+            if(button[4].backgroundColor=="#A4A4A4"){
+                button[4].backgroundColor="#81F79F";
+            }
+            else{
+             button[4].backgroundColor="#A4A4A4";
+            }
+        });
+        button[5].addEventListener('click',function(e){
+            if(button[5].backgroundColor=="#A4A4A4"){
+                button[5].backgroundColor="#81F79F";
+            }
+            else{
+             button[5].backgroundColor="#A4A4A4";
+            }
+        });
+        button[6].addEventListener('click',function(e){
+            if(button[6].backgroundColor=="#A4A4A4"){
+                button[6].backgroundColor="#81F79F";
+            }
+            else{
+             button[6].backgroundColor="#A4A4A4";
+            }
+        });
+        button[7].addEventListener('click',function(e){
+            if(button[7].backgroundColor=="#A4A4A4"){
+                button[7].backgroundColor="#81F79F";
+            }
+            else{
+             button[7].backgroundColor="#A4A4A4";
+            }
+        });
+        button[8].addEventListener('click',function(e){
+            if(button[8].backgroundColor=="#A4A4A4"){
+                button[8].backgroundColor="#81F79F";
+            }
+            else{
+             button[8].backgroundColor="#A4A4A4";
+            }
+        });
+        button[9].addEventListener('click',function(e){
+            if(button[9].backgroundColor=="#A4A4A4"){
+                button[9].backgroundColor="#81F79F";
+            }
+            else{
+             button[9].backgroundColor="#A4A4A4";
+            }
+        });
+        button[10].addEventListener('click',function(e){
+            if(button[10].backgroundColor=="#A4A4A4"){
+                button[10].backgroundColor="#81F79F";
+            }
+            else{
+             button[10].backgroundColor="#A4A4A4";
+            }
+        });
+        button[11].addEventListener('click',function(e){
+            if(button[11].backgroundColor=="#A4A4A4"){
+                button[11].backgroundColor="#81F79F";
+            }
+            else{
+             button[11].backgroundColor="#A4A4A4";
+            }
+        });
+        button[12].addEventListener('click',function(e){
+            if(button[12].backgroundColor=="#A4A4A4"){
+                button[12].backgroundColor="#81F79F";
+            }
+            else{
+             button[12].backgroundColor="#A4A4A4";
+            }
+        });
+        button[13].addEventListener('click',function(e){
+            if(button[13].backgroundColor=="#A4A4A4"){
+                button[13].backgroundColor="#81F79F";
+            }
+            else{
+             button[13].backgroundColor="#A4A4A4";
+            }
+        });
+        button[14].addEventListener('click',function(e){
+            if(button[14].backgroundColor=="#A4A4A4"){
+                button[14].backgroundColor="#81F79F";
+            }
+            else{
+             button[14].backgroundColor="#A4A4A4";
+            }
+        });
+        button[15].addEventListener('click',function(e){
+            if(button[15].backgroundColor=="#A4A4A4"){
+                button[15].backgroundColor="#81F79F";
+            }
+            else{
+             button[15].backgroundColor="#A4A4A4";
+            }
+        });
 	}
 	//
 	if(Alloy.Globals.aux_juego=="Acciones"){
@@ -126,6 +285,150 @@ if(Alloy.Globals.aux_categoria=="Habilidades Sociales"){
 			}
 			view_body_left.add(button[i]);
     	}
+        button[0].addEventListener('click',function(e){
+            if(button[0].backgroundColor=="#A4A4A4"){
+                button[0].backgroundColor="#81F79F";
+            }
+            else{
+             button[0].backgroundColor="#A4A4A4";
+            }
+        });
+        button[1].addEventListener('click',function(e){
+            if(button[1].backgroundColor=="#A4A4A4"){
+                button[1].backgroundColor="#81F79F";
+            }
+            else{
+             button[1].backgroundColor="#A4A4A4";
+            }
+        });
+        button[2].addEventListener('click',function(e){
+            if(button[2].backgroundColor=="#A4A4A4"){
+                button[2].backgroundColor="#81F79F";
+            }
+            else{
+             button[2].backgroundColor="#A4A4A4";
+            }
+        });
+        button[3].addEventListener('click',function(e){
+            if(button[3].backgroundColor=="#A4A4A4"){
+                button[3].backgroundColor="#81F79F";
+            }
+            else{
+             button[3].backgroundColor="#A4A4A4";
+            }
+        });
+        button[4].addEventListener('click',function(e){
+            if(button[4].backgroundColor=="#A4A4A4"){
+                button[4].backgroundColor="#81F79F";
+            }
+            else{
+             button[4].backgroundColor="#A4A4A4";
+            }
+        });
+        button[5].addEventListener('click',function(e){
+            if(button[5].backgroundColor=="#A4A4A4"){
+                button[5].backgroundColor="#81F79F";
+            }
+            else{
+             button[5].backgroundColor="#A4A4A4";
+            }
+        });
+        button[6].addEventListener('click',function(e){
+            if(button[6].backgroundColor=="#A4A4A4"){
+                button[6].backgroundColor="#81F79F";
+            }
+            else{
+             button[6].backgroundColor="#A4A4A4";
+            }
+        });
+        button[7].addEventListener('click',function(e){
+            if(button[7].backgroundColor=="#A4A4A4"){
+                button[7].backgroundColor="#81F79F";
+            }
+            else{
+             button[7].backgroundColor="#A4A4A4";
+            }
+        });
+        button[8].addEventListener('click',function(e){
+            if(button[8].backgroundColor=="#A4A4A4"){
+                button[8].backgroundColor="#81F79F";
+            }
+            else{
+             button[8].backgroundColor="#A4A4A4";
+            }
+        });
+        button[9].addEventListener('click',function(e){
+            if(button[9].backgroundColor=="#A4A4A4"){
+                button[9].backgroundColor="#81F79F";
+            }
+            else{
+             button[9].backgroundColor="#A4A4A4";
+            }
+        });
+        button[10].addEventListener('click',function(e){
+            if(button[10].backgroundColor=="#A4A4A4"){
+                button[10].backgroundColor="#81F79F";
+            }
+            else{
+             button[10].backgroundColor="#A4A4A4";
+            }
+        });
+        button[11].addEventListener('click',function(e){
+            if(button[11].backgroundColor=="#A4A4A4"){
+                button[11].backgroundColor="#81F79F";
+            }
+            else{
+             button[11].backgroundColor="#A4A4A4";
+            }
+        });
+        button[12].addEventListener('click',function(e){
+            if(button[12].backgroundColor=="#A4A4A4"){
+                button[12].backgroundColor="#81F79F";
+            }
+            else{
+             button[12].backgroundColor="#A4A4A4";
+            }
+        });
+        button[13].addEventListener('click',function(e){
+            if(button[13].backgroundColor=="#A4A4A4"){
+                button[13].backgroundColor="#81F79F";
+            }
+            else{
+             button[13].backgroundColor="#A4A4A4";
+            }
+        });
+        button[14].addEventListener('click',function(e){
+            if(button[14].backgroundColor=="#A4A4A4"){
+                button[14].backgroundColor="#81F79F";
+            }
+            else{
+             button[14].backgroundColor="#A4A4A4";
+            }
+        });
+        button[15].addEventListener('click',function(e){
+            if(button[15].backgroundColor=="#A4A4A4"){
+                button[15].backgroundColor="#81F79F";
+            }
+            else{
+             button[15].backgroundColor="#A4A4A4";
+            }
+        });
+        button[16].addEventListener('click',function(e){
+            if(button[16].backgroundColor=="#A4A4A4"){
+                button[16].backgroundColor="#81F79F";
+            }
+            else{
+             button[16].backgroundColor="#A4A4A4";
+            }
+        });
+        button[17].addEventListener('click',function(e){
+            if(button[17].backgroundColor=="#A4A4A4"){
+                button[17].backgroundColor="#81F79F";
+            }
+            else{
+             button[17].backgroundColor="#A4A4A4";
+            }
+        });
 	}
 	//
 	if(Alloy.Globals.aux_juego=="Gestos"){
@@ -152,7 +455,128 @@ if(Alloy.Globals.aux_categoria=="Habilidades Sociales"){
 			}
 			view_body_left.add(button[i]);
     	}
+    	button[0].addEventListener('click',function(e){
+            if(button[0].backgroundColor=="#A4A4A4"){
+                button[0].backgroundColor="#81F79F";
+            }
+            else{
+             button[0].backgroundColor="#A4A4A4";
+            }
+        });
+        button[1].addEventListener('click',function(e){
+            if(button[1].backgroundColor=="#A4A4A4"){
+                button[1].backgroundColor="#81F79F";
+            }
+            else{
+             button[1].backgroundColor="#A4A4A4";
+            }
+        });
+        button[2].addEventListener('click',function(e){
+            if(button[2].backgroundColor=="#A4A4A4"){
+                button[2].backgroundColor="#81F79F";
+            }
+            else{
+             button[2].backgroundColor="#A4A4A4";
+            }
+        });
+        button[3].addEventListener('click',function(e){
+            if(button[3].backgroundColor=="#A4A4A4"){
+                button[3].backgroundColor="#81F79F";
+            }
+            else{
+             button[3].backgroundColor="#A4A4A4";
+            }
+        });
+        button[4].addEventListener('click',function(e){
+            if(button[4].backgroundColor=="#A4A4A4"){
+                button[4].backgroundColor="#81F79F";
+            }
+            else{
+             button[4].backgroundColor="#A4A4A4";
+            }
+        });
+        button[5].addEventListener('click',function(e){
+            if(button[5].backgroundColor=="#A4A4A4"){
+                button[5].backgroundColor="#81F79F";
+            }
+            else{
+             button[5].backgroundColor="#A4A4A4";
+            }
+        });
+        button[6].addEventListener('click',function(e){
+            if(button[6].backgroundColor=="#A4A4A4"){
+                button[6].backgroundColor="#81F79F";
+            }
+            else{
+             button[6].backgroundColor="#A4A4A4";
+            }
+        });
+        button[7].addEventListener('click',function(e){
+            if(button[7].backgroundColor=="#A4A4A4"){
+                button[7].backgroundColor="#81F79F";
+            }
+            else{
+             button[7].backgroundColor="#A4A4A4";
+            }
+        });
+        button[8].addEventListener('click',function(e){
+            if(button[8].backgroundColor=="#A4A4A4"){
+                button[8].backgroundColor="#81F79F";
+            }
+            else{
+             button[8].backgroundColor="#A4A4A4";
+            }
+        });
+        button[9].addEventListener('click',function(e){
+            if(button[9].backgroundColor=="#A4A4A4"){
+                button[9].backgroundColor="#81F79F";
+            }
+            else{
+             button[9].backgroundColor="#A4A4A4";
+            }
+        });
+        button[10].addEventListener('click',function(e){
+            if(button[10].backgroundColor=="#A4A4A4"){
+                button[10].backgroundColor="#81F79F";
+            }
+            else{
+             button[10].backgroundColor="#A4A4A4";
+            }
+        });
+        button[11].addEventListener('click',function(e){
+            if(button[11].backgroundColor=="#A4A4A4"){
+                button[11].backgroundColor="#81F79F";
+            }
+            else{
+             button[11].backgroundColor="#A4A4A4";
+            }
+        });
+        button[12].addEventListener('click',function(e){
+            if(button[12].backgroundColor=="#A4A4A4"){
+                button[12].backgroundColor="#81F79F";
+            }
+            else{
+             button[12].backgroundColor="#A4A4A4";
+            }
+        });
+        button[13].addEventListener('click',function(e){
+            if(button[13].backgroundColor=="#A4A4A4"){
+                button[13].backgroundColor="#81F79F";
+            }
+            else{
+             button[13].backgroundColor="#A4A4A4";
+            }
+        });
+        button[14].addEventListener('click',function(e){
+            if(button[14].backgroundColor=="#A4A4A4"){
+                button[14].backgroundColor="#81F79F";
+            }
+            else{
+             button[14].backgroundColor="#A4A4A4";
+            }
+        });
 	}
+        
 }
 if(Alloy.Globals.aux_categoria=="Tolerancia a la Frustración"){
 	if(Alloy.Globals.aux_juego=="Siluetas"){
@@ -179,6 +603,86 @@ if(Alloy.Globals.aux_categoria=="Tolerancia a la Frustración"){
 			}
 			view_body_left.add(button[i]);
     	}
+        button[0].addEventListener('click',function(e){
+            if(button[0].backgroundColor=="#A4A4A4"){
+                button[0].backgroundColor="#81F79F";
+            }
+            else{
+             button[0].backgroundColor="#A4A4A4";
+            }
+        });
+        button[1].addEventListener('click',function(e){
+            if(button[1].backgroundColor=="#A4A4A4"){
+                button[1].backgroundColor="#81F79F";
+            }
+            else{
+             button[1].backgroundColor="#A4A4A4";
+            }
+        });
+        button[2].addEventListener('click',function(e){
+            if(button[2].backgroundColor=="#A4A4A4"){
+                button[2].backgroundColor="#81F79F";
+            }
+            else{
+             button[2].backgroundColor="#A4A4A4";
+            }
+        });
+        button[3].addEventListener('click',function(e){
+            if(button[3].backgroundColor=="#A4A4A4"){
+                button[3].backgroundColor="#81F79F";
+            }
+            else{
+             button[3].backgroundColor="#A4A4A4";
+            }
+        });
+        button[4].addEventListener('click',function(e){
+            if(button[4].backgroundColor=="#A4A4A4"){
+                button[4].backgroundColor="#81F79F";
+            }
+            else{
+             button[4].backgroundColor="#A4A4A4";
+            }
+        });
+        button[5].addEventListener('click',function(e){
+            if(button[5].backgroundColor=="#A4A4A4"){
+                button[5].backgroundColor="#81F79F";
+            }
+            else{
+             button[5].backgroundColor="#A4A4A4";
+            }
+        });
+        button[6].addEventListener('click',function(e){
+            if(button[6].backgroundColor=="#A4A4A4"){
+                button[6].backgroundColor="#81F79F";
+            }
+            else{
+             button[6].backgroundColor="#A4A4A4";
+            }
+        });
+        button[7].addEventListener('click',function(e){
+            if(button[7].backgroundColor=="#A4A4A4"){
+                button[7].backgroundColor="#81F79F";
+            }
+            else{
+             button[7].backgroundColor="#A4A4A4";
+            }
+        });
+        button[8].addEventListener('click',function(e){
+            if(button[8].backgroundColor=="#A4A4A4"){
+                button[8].backgroundColor="#81F79F";
+            }
+            else{
+             button[8].backgroundColor="#A4A4A4";
+            }
+        });
+        button[9].addEventListener('click',function(e){
+            if(button[9].backgroundColor=="#A4A4A4"){
+                button[9].backgroundColor="#81F79F";
+            }
+            else{
+             button[9].backgroundColor="#A4A4A4";
+            }
+        });
 	}
 	//
 	if(Alloy.Globals.aux_juego=="Encúentralos"){
@@ -205,6 +709,86 @@ if(Alloy.Globals.aux_categoria=="Tolerancia a la Frustración"){
 			}
 			view_body_left.add(button[i]);
     	}
+        button[0].addEventListener('click',function(e){
+            if(button[0].backgroundColor=="#A4A4A4"){
+                button[0].backgroundColor="#81F79F";
+            }
+            else{
+             button[0].backgroundColor="#A4A4A4";
+            }
+        });
+        button[1].addEventListener('click',function(e){
+            if(button[1].backgroundColor=="#A4A4A4"){
+                button[1].backgroundColor="#81F79F";
+            }
+            else{
+             button[1].backgroundColor="#A4A4A4";
+            }
+        });
+        button[2].addEventListener('click',function(e){
+            if(button[2].backgroundColor=="#A4A4A4"){
+                button[2].backgroundColor="#81F79F";
+            }
+            else{
+             button[2].backgroundColor="#A4A4A4";
+            }
+        });
+        button[3].addEventListener('click',function(e){
+            if(button[3].backgroundColor=="#A4A4A4"){
+                button[3].backgroundColor="#81F79F";
+            }
+            else{
+             button[3].backgroundColor="#A4A4A4";
+            }
+        });
+        button[4].addEventListener('click',function(e){
+            if(button[4].backgroundColor=="#A4A4A4"){
+                button[4].backgroundColor="#81F79F";
+            }
+            else{
+             button[4].backgroundColor="#A4A4A4";
+            }
+        });
+        button[5].addEventListener('click',function(e){
+            if(button[5].backgroundColor=="#A4A4A4"){
+                button[5].backgroundColor="#81F79F";
+            }
+            else{
+             button[5].backgroundColor="#A4A4A4";
+            }
+        });
+        button[6].addEventListener('click',function(e){
+            if(button[6].backgroundColor=="#A4A4A4"){
+                button[6].backgroundColor="#81F79F";
+            }
+            else{
+             button[6].backgroundColor="#A4A4A4";
+            }
+        });
+        button[7].addEventListener('click',function(e){
+            if(button[7].backgroundColor=="#A4A4A4"){
+                button[7].backgroundColor="#81F79F";
+            }
+            else{
+             button[7].backgroundColor="#A4A4A4";
+            }
+        });
+        button[8].addEventListener('click',function(e){
+            if(button[8].backgroundColor=="#A4A4A4"){
+                button[8].backgroundColor="#81F79F";
+            }
+            else{
+             button[8].backgroundColor="#A4A4A4";
+            }
+        });
+        button[9].addEventListener('click',function(e){
+            if(button[9].backgroundColor=="#A4A4A4"){
+                button[9].backgroundColor="#81F79F";
+            }
+            else{
+             button[9].backgroundColor="#A4A4A4";
+            }
+        });
 	}
 	//
 	if(Alloy.Globals.aux_juego=="Objetos"){
@@ -231,6 +815,94 @@ if(Alloy.Globals.aux_categoria=="Tolerancia a la Frustración"){
 			}
 			view_body_left.add(button[i]);
     	}
+        button[0].addEventListener('click',function(e){
+            if(button[0].backgroundColor=="#A4A4A4"){
+                button[0].backgroundColor="#81F79F";
+            }
+            else{
+             button[0].backgroundColor="#A4A4A4";
+            }
+        });
+        button[1].addEventListener('click',function(e){
+            if(button[1].backgroundColor=="#A4A4A4"){
+                button[1].backgroundColor="#81F79F";
+            }
+            else{
+             button[1].backgroundColor="#A4A4A4";
+            }
+        });
+        button[2].addEventListener('click',function(e){
+            if(button[2].backgroundColor=="#A4A4A4"){
+                button[2].backgroundColor="#81F79F";
+            }
+            else{
+             button[2].backgroundColor="#A4A4A4";
+            }
+        });
+        button[3].addEventListener('click',function(e){
+            if(button[3].backgroundColor=="#A4A4A4"){
+                button[3].backgroundColor="#81F79F";
+            }
+            else{
+             button[3].backgroundColor="#A4A4A4";
+            }
+        });
+        button[4].addEventListener('click',function(e){
+            if(button[4].backgroundColor=="#A4A4A4"){
+                button[4].backgroundColor="#81F79F";
+            }
+            else{
+             button[4].backgroundColor="#A4A4A4";
+            }
+        });
+        button[5].addEventListener('click',function(e){
+            if(button[5].backgroundColor=="#A4A4A4"){
+                button[5].backgroundColor="#81F79F";
+            }
+            else{
+             button[5].backgroundColor="#A4A4A4";
+            }
+        });
+        button[6].addEventListener('click',function(e){
+            if(button[6].backgroundColor=="#A4A4A4"){
+                button[6].backgroundColor="#81F79F";
+            }
+            else{
+             button[6].backgroundColor="#A4A4A4";
+            }
+        });
+        button[7].addEventListener('click',function(e){
+            if(button[7].backgroundColor=="#A4A4A4"){
+                button[7].backgroundColor="#81F79F";
+            }
+            else{
+             button[7].backgroundColor="#A4A4A4";
+            }
+        });
+        button[8].addEventListener('click',function(e){
+            if(button[8].backgroundColor=="#A4A4A4"){
+                button[8].backgroundColor="#81F79F";
+            }
+            else{
+             button[8].backgroundColor="#A4A4A4";
+            }
+        });
+        button[9].addEventListener('click',function(e){
+            if(button[9].backgroundColor=="#A4A4A4"){
+                button[9].backgroundColor="#81F79F";
+            }
+            else{
+             button[9].backgroundColor="#A4A4A4";
+            }
+        });
+        button[10].addEventListener('click',function(e){
+            if(button[10].backgroundColor=="#A4A4A4"){
+                button[10].backgroundColor="#81F79F";
+            }
+            else{
+             button[10].backgroundColor="#A4A4A4";
+            }
+        });
 	}
 	//
 	if(Alloy.Globals.aux_juego=="Diferencias"){
@@ -257,11 +929,139 @@ if(Alloy.Globals.aux_categoria=="Tolerancia a la Frustración"){
 			}
 			view_body_left.add(button[i]);
     	}
+        button[0].addEventListener('click',function(e){
+            if(button[0].backgroundColor=="#A4A4A4"){
+                button[0].backgroundColor="#81F79F";
+            }
+            else{
+             button[0].backgroundColor="#A4A4A4";
+            }
+        });
+        button[1].addEventListener('click',function(e){
+            if(button[1].backgroundColor=="#A4A4A4"){
+                button[1].backgroundColor="#81F79F";
+            }
+            else{
+             button[1].backgroundColor="#A4A4A4";
+            }
+        });
+        button[2].addEventListener('click',function(e){
+            if(button[2].backgroundColor=="#A4A4A4"){
+                button[2].backgroundColor="#81F79F";
+            }
+            else{
+             button[2].backgroundColor="#A4A4A4";
+            }
+        });
+        button[3].addEventListener('click',function(e){
+            if(button[3].backgroundColor=="#A4A4A4"){
+                button[3].backgroundColor="#81F79F";
+            }
+            else{
+             button[3].backgroundColor="#A4A4A4";
+            }
+        });
+        button[4].addEventListener('click',function(e){
+            if(button[4].backgroundColor=="#A4A4A4"){
+                button[4].backgroundColor="#81F79F";
+            }
+            else{
+             button[4].backgroundColor="#A4A4A4";
+            }
+        });
+        button[5].addEventListener('click',function(e){
+            if(button[5].backgroundColor=="#A4A4A4"){
+                button[5].backgroundColor="#81F79F";
+            }
+            else{
+             button[5].backgroundColor="#A4A4A4";
+            }
+        });
+        button[6].addEventListener('click',function(e){
+            if(button[6].backgroundColor=="#A4A4A4"){
+                button[6].backgroundColor="#81F79F";
+            }
+            else{
+             button[6].backgroundColor="#A4A4A4";
+            }
+        });
+        button[7].addEventListener('click',function(e){
+            if(button[7].backgroundColor=="#A4A4A4"){
+                button[7].backgroundColor="#81F79F";
+            }
+            else{
+             button[7].backgroundColor="#A4A4A4";
+            }
+        });
+        button[8].addEventListener('click',function(e){
+            if(button[8].backgroundColor=="#A4A4A4"){
+                button[8].backgroundColor="#81F79F";
+            }
+            else{
+             button[8].backgroundColor="#A4A4A4";
+            }
+        });
+        button[9].addEventListener('click',function(e){
+            if(button[9].backgroundColor=="#A4A4A4"){
+                button[9].backgroundColor="#81F79F";
+            }
+            else{
+             button[9].backgroundColor="#A4A4A4";
+            }
+        });
+        button[10].addEventListener('click',function(e){
+            if(button[10].backgroundColor=="#A4A4A4"){
+                button[10].backgroundColor="#81F79F";
+            }
+            else{
+             button[10].backgroundColor="#A4A4A4";
+            }
+        });
+        button[11].addEventListener('click',function(e){
+            if(button[11].backgroundColor=="#A4A4A4"){
+                button[11].backgroundColor="#81F79F";
+            }
+            else{
+             button[11].backgroundColor="#A4A4A4";
+            }
+        });
+        button[12].addEventListener('click',function(e){
+            if(button[12].backgroundColor=="#A4A4A4"){
+                button[12].backgroundColor="#81F79F";
+            }
+            else{
+             button[12].backgroundColor="#A4A4A4";
+            }
+        });
+        button[13].addEventListener('click',function(e){
+            if(button[13].backgroundColor=="#A4A4A4"){
+                button[13].backgroundColor="#81F79F";
+            }
+            else{
+             button[13].backgroundColor="#A4A4A4";
+            }
+        });
+        button[14].addEventListener('click',function(e){
+            if(button[14].backgroundColor=="#A4A4A4"){
+                button[14].backgroundColor="#81F79F";
+            }
+            else{
+             button[14].backgroundColor="#A4A4A4";
+            }
+        });
+        button[15].addEventListener('click',function(e){
+            if(button[15].backgroundColor=="#A4A4A4"){
+                button[15].backgroundColor="#81F79F";
+            }
+            else{
+             button[15].backgroundColor="#A4A4A4";
+            }
+        });
 	}
 	//
 	if(Alloy.Globals.aux_juego=="Memorice"){
-		if(Ti.App.Properties.getBool("TF_memorice"+i)==false){
-			button[i] = Titanium.UI.createButton({
+		if(Ti.App.Properties.getBool("TF_memorice"+0)==false){
+			button[0] = Titanium.UI.createButton({
 			   title: "Nivel 1",
 			   height: "90",
 			   top: "6%",
@@ -271,7 +1071,7 @@ if(Alloy.Globals.aux_categoria=="Tolerancia a la Frustración"){
 			});	
 		}
 		else{
-			button[i] = Titanium.UI.createButton({
+			button[0] = Titanium.UI.createButton({
 			   title: "Nivel 1",
 			   height: "90",
 			   top: "6%",
@@ -280,7 +1080,15 @@ if(Alloy.Globals.aux_categoria=="Tolerancia a la Frustración"){
 			   backgroundColor: "#81F79F"
 			});
 		}
-		view_body_left.add(button[i]);
+		view_body_left.add(button[0]);
+		button[0].addEventListener('click',function(e){
+            if(button[0].backgroundColor=="#A4A4A4"){
+                button[0].backgroundColor="#81F79F";
+            }
+            else{
+             button[0].backgroundColor="#A4A4A4";
+            }
+        });
     }
 }
 var button_GD=Titanium.UI.createButton({
@@ -297,16 +1105,6 @@ var button_AT=Titanium.UI.createButton({
 			   width: "100",
 			   backgroundColor: "#9DF"
 			});
-//for (var i=0; i < button.length; i++) {
-	button[i].addEventListener('click',function(e){
-		if(button[i].backgroundColor=="#A4A4A4"){
-			button[i].backgroundColor="#81F79F";
-		}
-		else{
-			button[i].backgroundColor="#A4A4A4";
-		}  
-	});
-//}
 button_GD.addEventListener('click',function(e)
 {  
 	for (var i=0; i < button.length; i++) {
@@ -431,4 +1229,3 @@ view_body.add(view_body_right);
 $.win.add(view_header);
 $.win.add(view_body);
 $.win.add(view_footer);
-//$.menu_desbloquear_nivel.open();

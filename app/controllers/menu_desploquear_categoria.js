@@ -27,7 +27,6 @@ function Button_CL(e) {
 }
 function Button_SG(e) {
     if(aux==true){
-    	alert($.Picker_CG.getSelectedRow(0).title+" "+$.Picker_JG.getSelectedRow(0).title);
     	Alloy.Globals.aux_categoria = $.Picker_CG.getSelectedRow(0).title;
     	Alloy.Globals.aux_juego = $.Picker_JG.getSelectedRow(0).title;
     	var menu_desbloquear_nivel=Alloy.createController('menu_desbloquear_nivel').getView();
